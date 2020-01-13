@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  height: 100vh;
+
+  .up-bar{
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 5%;
+  }
+  .bar{
+    background-color:#c70101;
+    width: 100%;
+    height: 5%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    .title{
+      margin: -25px 380px;
+      font-size: 50px;
+      font-family: cursive;
+      cursor: pointer;
+      &__logo{
+        text-align: center;
+        }
+    }
+    .box1{
+      margin: 0 17px ;
+      border: solid 2px #f2f2f2;
+      padding: 5px;
+      cursor: pointer;
+    }
+    .box2{
+      margin: 0 17px;
+      border: solid 2px #f2f2f2;
+      padding: 5px;
+      cursor: pointer;
+    }
+
+  }
+  .main{
+    width: 100%;
+    height: 87%;
+    display: flex;
+    color:white;
+    font-family:Comic Sans MS;
+    font-size: 18px;
+    .post{
+      margin: 0 15px;
+      cursor: pointer;
+    }
+    .list{
+      margin: 0 15px;
+      cursor: pointer;
+    }
+    .serch{
+      margin: 0 15px;
+      cursor: pointer;
+    }
+  }
+
+  .under-bar{
+    background-color:#f2f2f2;
+    width: 100%;
+    height: 5%;
+    color: white;
+    font-size: 18px;
+    .ink__logo{
+      text-align: center;
+    }
+  }
+}
